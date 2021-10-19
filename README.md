@@ -1,11 +1,11 @@
 # OMDB-Movie-App
 
-This project is a small React app that I created for a college assignment. I used the Open Movie Database API to retrieve movie information and display information based on what the user searches.
+This project is a small React app that I created for a college assignment. I used the Open Movie Database API to retrieve movie information and display details based on what the user searches.
 
 Some notes about this project:
 
 - This react project was created with [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html).
-- I placed API calling function in the [useEffect](https://reactjs.org/docs/hooks-effect.html) hook so it will fire on the initial render and also when the user enters a new search.
+- I placed the API calling function in the [useEffect](https://reactjs.org/docs/hooks-effect.html) hook so it will fire on the initial render and also when the user enters a new search.
 - I added a simple timeout function so the movie list doesn't update so frequently as the user is typing a search.
 - [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) was used for a responsive layout which reduces the number of columns based on current screen size.
 
