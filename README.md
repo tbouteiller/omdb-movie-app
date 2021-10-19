@@ -1,8 +1,15 @@
-# Getting Started with Create React App
+# OMDB-Movie-App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a small React app that I created for a college assignment. I used the Open Movie Database API to retrieve movie information and display information based on what the user searches.
 
-## Available Scripts
+Some notes about this project:
+
+- This react project was created with [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html).
+- I placed API calling function in the [useEffect](https://reactjs.org/docs/hooks-effect.html) hook so it will fire on the initial render and also when the user enters a new search.
+- I added a simple timeout function so the movie list doesn't update so frequently as the user is typing a search.
+- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) was used for a responsive layout which reduces the number of columns based on current screen size.
+
+## Create-React-App Instructions
 
 In the project directory, you can run:
 
@@ -44,27 +51,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
